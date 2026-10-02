@@ -23,24 +23,22 @@ export default async function Home(){
             </div>
           </div>
 
-          <div className="launch-stage" aria-label="Hoodlaunch onchain launch visual">
-            <div className="stage-grid"/>
-            <div className="stage-glow stage-glow-a"/>
-            <div className="stage-glow stage-glow-b"/>
-            <div className="stage-topline"><span>HOODLAUNCH / LIVE SYSTEM</span><b>ONCHAIN 4663</b></div>
-            <div className="stage-rail rail-left">
-              <span>IDEA</span><i/><span>DEPLOY</span><i/><span>DISCOVER</span>
+          <div className="cinematic-stage" aria-label="Cinematic Hoodlaunch network visual">
+            <div className="cinematic-image" />
+            <div className="cinematic-vignette" />
+            <div className="cinematic-scan" />
+            <div className="cinematic-glow" />
+            <div className="cinematic-top"><span>HOODLAUNCH / LIVE NETWORK</span><b>CHAIN 4663</b></div>
+            <div className="cinematic-copy">
+              <span className="cinematic-kicker">THE LAUNCH LAYER</span>
+              <strong>Ideas move.<br/>Markets form.</strong>
+              <p>Real creators. Real tokens. Real onchain activity.</p>
             </div>
-            <div className="stage-core">
-              <div className="core-ring ring-one"/><div className="core-ring ring-two"/>
-              <div className="core-chip">HL</div>
-              <div className="core-label">CREATOR<br/><strong>OWNERSHIP</strong></div>
+            <div className="cinematic-bottom">
+              <span><i className="live-dot"/> NETWORK LIVE</span>
+              <span>{live.length.toString().padStart(2,'0')} LAUNCHES</span>
+              <span>1% CREATOR FEE</span>
             </div>
-            <div className="stage-card stage-card-a"><span>RESERVES</span><strong>TRANSPARENT</strong><i/></div>
-            <div className="stage-card stage-card-b"><span>CREATOR FEE</span><strong>1.00%</strong><em>CLAIMABLE</em></div>
-            <div className="stage-card stage-card-c"><span>LIVE LAUNCHES</span><strong>{live.length.toString().padStart(2,'0')}</strong><em>DISCOVERY FEED</em></div>
-            <div className="stage-signal signal-one"/><div className="stage-signal signal-two"/><div className="stage-signal signal-three"/>
-            <div className="stage-bottomline"><span>REAL TRANSACTIONS</span><span>NO PAPER MARKETS</span><span>CREATOR OWNED</span></div>
           </div>
 
           <div className="metrics">
