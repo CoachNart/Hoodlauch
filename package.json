@@ -1,0 +1,8 @@
+{
+  "name":"hoodlaunch",
+  "version":"1.0.0",
+  "private":true,
+  "scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"next lint","contracts:compile":"hardhat compile","contracts:deploy:testnet":"hardhat run scripts/deploy.cjs --network robinhoodTestnet","contracts:deploy:mainnet":"hardhat run scripts/deploy.cjs --network robinhood"},
+  "dependencies":{"@tanstack/react-query":"^5.66.8","lucide-react":"^0.468.0","next":"^16.0.1","react":"^19.2.0","react-dom":"^19.2.0","viem":"^2.38.0","wagmi":"^2.19.0"},
+  "devDependencies":{"@nomicfoundation/hardhat-toolbox":"^6.0.1","@types/node":"^22.10.5","@types/react":"^19.0.3","@types/react-dom":"^19.0.2","dotenv":"^16.4.7","typescript":"^5.7.2"}
+}
