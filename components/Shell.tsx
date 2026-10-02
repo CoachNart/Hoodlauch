@@ -1,0 +1,1 @@
+import Header from './Header';import Subnav from './Subnav';import MobileBar from './MobileBar';export default function Shell({children}:{children:React.ReactNode}){return <><Header/><Subnav/>{children}<MobileBar/></>}

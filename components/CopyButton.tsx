@@ -1,0 +1,1 @@
+'use client';import {Copy} from 'lucide-react';export default function CopyButton({value}:{value:string}){return <button className="btn" style={{width:'100%',justifyContent:'center',marginTop:10}} onClick={()=>navigator.clipboard?.writeText(value)}><Copy size={14}/>Copy contract</button>}
